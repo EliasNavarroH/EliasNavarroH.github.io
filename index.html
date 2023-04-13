@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Elias Navarro" />
+    <meta name="description" content="Elias Navarro Portfolio Page" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Django, Python" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Tittle -->
+    <title>Elias Navarro | Portfolio Page</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/coder_portfolio.png" />
+    <!-- Boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <!-- Bootsrap icons  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-toggler"
+          aria-controls="navbar-toggler"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="images/coder_portfolio.png" width="45" alt="Page logo" />
+          </a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about-me"
+                >About Me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero align-items-stretch">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          class="hero-image-developer"
+          src="images/IMG_2527.jpeg"
+          alt="Elias Profile picture"
+        />
+        <h1>Hi!, I'm Elias Navarro</h1>
+        <h2>I'm a Python developer looking for my first job</h2>
+      </div>
+      <div class="hero-inferior">
+        <img
+          class="hero-inferior-image img-fluid"
+          src="images/computer-coding-svgrepo-com.svg"
+          alt="Pc with code"
+        />
+      </div>
+    </section>
+    <!-- About Me -->
+    <section class="about-me dark-section" id="about-me" >
+      <div class="container">
+        <h2 class="title-section">Get to know me</h2>
+        <p class="text-section">
+          I'm a Python developer with experience in HTML and CSS, currently
+          seeking a developer job. Although I am currently working in a
+          different field, I am eager to transition to a role that allows me to
+          apply my technical skills and knowledge of web development. I am
+          highly proficient in Python and have a strong grasp of web development
+          languages.
+        </p>
+      </div>
+    </section>
+    <!-- Experience -->
+    <section class="experience white-section" id="experience" >
+      <div class="container text-center">
+        <div class="row">
+          <!-- Work Experience -->
+          <div class="column col-12 col-md-6 ">
+            <i class="bi bi-pen"></i>
+            <p class="experience-title">Experience</p>
+            <p>1 Year as an End User Computer on Western Union, now working as a Sysadmin on a Powerplant for Siemens Siemens-Energy since 2019.</p>
+            <div class="badges-container">
+              <span class="badge text-bg-primary">Siemens-Energy</span>
+              <span class="badge text-bg-primary">Western Union</span>
+            </div>
+          </div>
+          <!-- Knowledge -->
+          <div class="column col-12 col-md-6 ">
+            <i class="bi bi-mortarboard"></i>
+            <p class="experience-title">Knowledge</p>
+            <p>I'm a self taught developer with knowledge in Python, Django, HTML5 and CSS3, also graduated in highschool as an Electronic Technician. </p>
+            <div class="badges-container">
+              <span class="badge text-bg-primary">Electronic Technician</span>
+              <span class="badge text-bg-primary">Responsive Web Design</span>
+              <span class="badge text-bg-primary">Python</span>
+              <span class="badge text-bg-primary">Django</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- Contact me  -->
+    <section class="contact dark-section" id="contact">
+      <div class="container">
+        <div class="container text-center d-flex  rectangle justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 title-section">
+              Let's Talk!
+            </div>
+            <div class="col-12 col-md-4 description">
+              Contact me to start working on your projects. 
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:eliasnvr@icloud.com">
+                <button type="button">
+                  Contact
+                  <i class="bi bi-envelope"></i>
+                </button>
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="dark-section d-flex flex-column align-items-center justify-content-center">
+      <img class="footer-icon" src="images/icono-blanco.svg" alt="portfolio logo">
+      <p class="footer-text text-center">Learning everyday.<br> Let's build a project together</p>
+      <div class="icons-social-media d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://www.linkedin.com/in/eliasnvr/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://github.com/EliasNavarroH" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.instagram.com/eliasnvrr/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:eliasnvr@icloud.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope-paper"></i>
+        </a>
+      </div>
+      <div class="author-rights "> Created by Elias Navarro (2023) &#169;</div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
